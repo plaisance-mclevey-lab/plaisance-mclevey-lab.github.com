@@ -1,0 +1,17 @@
+# Site settings
+title: Philosophy of Science Lab
+description: > # this means to ignore newlines until "baseurl:"
+    Is there some very short piece of text we want to put here? About us or about the project?
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: katieplaisance
+github_username: mclevey
+email: kplaisan@uwaterloo.ca
+
+  # analytics :
+  #   provider : google 
+  #   google : 
+  #       tracking_id : '   '
+
+
+# Build settings
+markdown: kramdown
