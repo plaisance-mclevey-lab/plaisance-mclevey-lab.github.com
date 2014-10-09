@@ -13,7 +13,7 @@ color:
 
 people:
 - name: Katie Plaisance
-  pic: 1
+  pic: katie
   position: Assistant Professor
   social:
     - title: link
@@ -24,7 +24,7 @@ people:
       url: "https://www.linkedin.com/profile/view?id=126695447&authType=NAME_SEARCH&authToken=g7qN&locale=en_US&trk=tyah2&trkInfo=tarId%3A1412862644454%2Ctas%3Akatie%20plaisance%2Cidx%3A1-1-1"
 
 - name: John McLevey
-  pic: 1
+  pic: john
   position: Assistant Professor
   social:
     - title: twitter
@@ -33,13 +33,13 @@ people:
       url: "http://www.johnmclevey.com" 
     - title: github
       url: http://github.com/mclevey
-    - title: linkedin
-      url: "https://www.linkedin.com/profile/view?id=192513726&trk=nav_responsive_tab_profile_pic"
+    # - title: linkedin
+    #   url: "https://www.linkedin.com/profile/view?id=192513726&trk=nav_responsive_tab_profile_pic"
     # - title: academia.edu
     #   url: http://uwaterloo.academia.edu/JohnMcLevey
 
 - name: Janet Michaud
-  pic: 1
+  pic: janet
   position: Research Assistant
   social:
     - title: twitter
@@ -48,7 +48,7 @@ people:
       url: 
 
 - name: Ben Nelson
-  pic: 1
+  pic: ben
   position: Research Assistant
   social:
     - title: twitter
@@ -59,7 +59,7 @@ people:
       url: "https://www.linkedin.com/profile/view?id=41502798&goback=%2Enpv_41502798_*1_*1_NAME*4SEARCH_sK8x_*1_en*4US_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_tyah2_*1"
 
 - name: Sasha Graham
-  pic: 1
+  pic: sasha
   position: Research Assistant
   social:
     - title: twitter

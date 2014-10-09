@@ -7,9 +7,11 @@
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
+
             <div class="row">
                 {% for member in site.people %}
                 <div class="col-sm-4">
+                <div class="col-lg-12 text-center">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
@@ -18,8 +20,8 @@
                             {% for network in member.social %}
                             <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                             {% endfor %}
-
                         </ul>
+                    </div>
                     </div>
                 </div>
                 {% endfor %}
@@ -27,13 +29,25 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-left">
 
-                    <b>Principle Investigators</b>
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading">Principal Investigators</h3>
+                </div>
 
+<!-- 
+                    <div class="team-member">
+                        <img src="img/team/john.jpg" class="img-responsive img-circle" alt="">
+                        <h4>John McLevey</h4>
+                        <p class="text-muted">Assistant Professor</p>
+                        <ul class="list-inline social-buttons">
+                    </div>
+ -->
                     <p class="large text-muted"><b>Katie Plaisance</b> is an Assistant Professor in the Department of Knowledge Integration at the University of Waterloo, cross-appointed to the Department of Philosophy...</p>
 
                     <p class="large text-muted"><b>John McLevey</b> is an Assistant Professor in the Department of Knowledge Integration at the University of Waterloo, cross-appointed to the Departments of Sociology and Legal Studies, and Environment and Resource Studies...</p>
 
-                    <b>Research Assistants</b>
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading">Research Assistants</h3>
+                </div>
 
                     <p class="large text-muted"><b>Janet Michaud</b> is a PhD student in the philosophy department at Waterloo. Her main areas of research span a number of socially relevant topics in philosophy such as: social and feminist epistemologies, feminist and engaged philosophy of science, experimental philosophy and interdisciplinary collaboration. She is involved in a number of collaborative experimental projects looking at values in science communication and coercion in controversial police interrogation tactics.</p>
 
